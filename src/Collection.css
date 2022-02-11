@@ -1,0 +1,7 @@
+.collection {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 50px;
+  padding: 20px;
+  width: 100%;
+}

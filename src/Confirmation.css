@@ -1,0 +1,20 @@
+.Confirmation__title {
+  color: #999999;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 30px 50px;
+}
+
+.Confirmation__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 50px;
+  padding: 20px;
+  width: 80%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: lightgray;
+  z-index: 1;
+}

@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: white;
+  /* background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png"); */
+  padding: 0 16px;
+}
+
+.firsttext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  font-family: "NunitoSans";
+  font-weight: bold;
+  /* margin-bottom: 10%;       */
+}
+.display-4 {
+  font-size: 1.5rem;
+}
+
+.content {
+  margin: 5vh 5vw;
+  padding: 5vh 5vw;
+  background-color: grey;
+  border-radius: 10px;
+}
+.content-1 {
+  font-family: "LibreBaskerville";
+
+  text-align: center;
+}
+.content-2 {
+  background-color: rgb(206, 196, 196);
+  padding: 1vh 2vw;
+  border-radius: 10px;
+}
+.content-2:hover {
+  background-color: rgb(179, 165, 165);
+}
+
+.text1 {
+  color: grey;
+  text-align: center;
+  margin-bottom: 5vh;
+  font-size: 3vw;
+}
+.container {
+  margin: 0 auto;
+  align-items: center;
+}
+
+.image {
+  width: auto;
+  height: auto;
+}
+.secondtext {
+  padding-top: 5vh;
+  font-family: "NunitoSans";
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(90, 84, 84);
+}
+.impact {
+  margin: 5vh 10vw;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+.secondtext1 {
+  font-family: "NunitoSans";
+  font-weight: bold;
+  text-align: center;
+  color: rgb(90, 84, 84);
+}
+.align-item-center {
+  display: flex;
+  justify-content: center;
+}
+.VaccinationHeader {
+  text-align: center;
+}
+.VaccinationHeader > h1 {
+  color: rgb(10, 67, 85);
+}
+
+.VaccineSearch {
+  border-radius: 25px;
+}
+.vaccinesearch {
+  background-color: rgb(10, 67, 85);
+  border-radius: 25px;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+thead,
+tbody,
+tr,
+td,
+th {
+  display: block;
+}
+
+tr:after {
+  content: " ";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+thead th {
+  /* height: 50px; */
+
+  text-align: left;
+}
+
+tbody {
+  height: 250px;
+  overflow-y: auto;
+}
+
+tbody td,
+thead th {
+  width: 25%;
+  float: left;
+}
+
+@media (max-width: 770px) {
+  .imagenone {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .display-4 {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .display-4 {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}

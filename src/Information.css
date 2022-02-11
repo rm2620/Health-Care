@@ -1,0 +1,16 @@
+.information {
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.info__image {
+  height: 150px;
+}
+
+@media (max-width: 800px) {
+  .info__image {
+    height: 70px;
+  }
+}
