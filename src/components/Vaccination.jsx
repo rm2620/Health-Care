@@ -30,6 +30,9 @@ function handleChange(event){
   }
 
 
+
+
+
   return (
       <div>
       <div className='VaccinationHeader'>
@@ -53,7 +56,25 @@ function handleChange(event){
          <button type="submit" className="btn input-lg vaccinesearch mb-2" onClick={handleClick}>Search</button>
       </form>
       </div>
-          
+          {/* <form className='create-note'>
+             <div className='row VaccineSearch'>
+            <div className='col'>
+              <input
+              name="PIN"
+              onChange={handleChange}
+              value ={pincode}
+              placeholder='Search By Pin'
+              type="text"
+              minLength={6}
+              maxLength={6}
+              >   
+              </input>
+              </div>
+              <div className='col'>
+            <button >Search</button>
+            </div>
+            </div>
+          </form> */}
           <div >
                 {
         posts.length>0?

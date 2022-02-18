@@ -1,0 +1,17 @@
+{
+  "name": "hackathon-3",
+  "version": "1.0.0",
+  "description": "Server for the project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rishabh Mittal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "twilio": "^3.74.0"
+  }
+}

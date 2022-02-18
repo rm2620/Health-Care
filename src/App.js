@@ -10,6 +10,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Confirmation from "./Confirmation";
 import Vaccine from "./components/App";
 import Mental_health from "./Mental_health";
+import Message from "./Message";
 
 const promise = loadStripe(
   "pk_test_51KGTGJSIAbQMBzJkvWYTgDxvKVNgX3toZTAMTuERMnFzHJS2vMJGgYrhTlPWuB4Tb1rPCpAEo8lMf9bKFTYdkYdW00Q00Xpbnt"
@@ -20,6 +21,9 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+          <Route path="/message">
+            <Message />
+          </Route>
           <Route path="/mental_health">
             <Mental_health />
             <Footer />

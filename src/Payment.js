@@ -88,7 +88,6 @@ function Payment() {
             <h4>Payment Method</h4>
           </div>
           <div className="payment__details">
-            {/* stripe magic */}
             <form onSubmit={handleSubmit}>
               <CardElement onChange={handleChange} />
               <div className="payment__priceContainer">

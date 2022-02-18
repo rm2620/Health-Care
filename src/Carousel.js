@@ -63,7 +63,11 @@ function Carousel() {
                   <cite title="Source Title">Voltaire</cite>
                 </figcaption>
               </figure>
-              <button type="button" class="btn btn-outline-secondary">
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                onClick={(e) => history.push("/donate")}
+              >
                 Save Lives From COVID-19
               </button>
             </div>
